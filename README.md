@@ -31,9 +31,9 @@ git config --list
 ```bash
 vim ~/.gitconfig
 ```
-> ## ~/.gitconfig contents
+> ### ~/.gitconfig contents
 > > [user]
-> > 	name = Your Name
+> > 	name = Your Name <br /> 
 > > 	email = youremail@domain.com
 
 
