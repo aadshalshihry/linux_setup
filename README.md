@@ -10,3 +10,31 @@ sudo apt-get install gnome-session-flashback
 
 ```
 ====================================================
+
+### Install git:
+
+```bash
+sudo apt-get intall git
+```
+#### Config git:
+
+```bash
+git config --global user.name "Your Name"
+git config --global user.email "youremail@domain.com"
+```
+#### List git configuration:
+
+```bash
+git config --list
+```
+#### Config git in file:
+```bash
+vim ~/.gitconfig
+```
+> ## ~/.gitconfig contents
+> > [user]
+> > 	name = Your Name
+> > 	email = youremail@domain.com
+
+
+==================================================
