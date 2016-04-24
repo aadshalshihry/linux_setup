@@ -124,3 +124,17 @@ sudo apt-get install tmux
 ##### Links
 1. https://www.digitalocean.com/community/tutorials/how-to-install-and-use-tmux-on-ubuntu-12-10--2
 
+==========================================================
+
+#### Dual screen:
+
+```bash
+sudo apt-get install compizconfig-settings-manager compiz-plugins
+```
+
+##### Links:
+1. http://askubuntu.com/questions/519651/add-workspaces-with-gnome-classic-and-ubuntu-14-04
+
+
+
+====================================================================
