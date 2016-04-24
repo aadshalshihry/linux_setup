@@ -51,6 +51,41 @@ https://help.github.com/articles/caching-your-github-password-in-git/
 ==================================================
 
 
+### Guake
+* Guake is a dropdown terminal
+
+```bash
+sudo apt-get install guake
+```
+http://guake.org
+
+==================================================
+
+
+### Oh-My-Zsh
+* It will give batter appearance and more functionality
+
+```bash
+sudo apt-get install zsh
+```
+> You should install Oh-My-Zsh after install guake
+
+> make file called ~/.zshrc and add the following
+
+```python
+
+ZSH_THEME="agnoster"
+
+```
+
+> Chage the Defualt interperter in the Guake Preference to */bin/zsh*
+
+http://ohmyz.sh/
+
+
+==================================================
+
+
 
 
 
