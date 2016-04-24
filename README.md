@@ -36,5 +36,22 @@ vim ~/.gitconfig
 > > 	name = Your Name <br /> 
 > > 	email = youremail@domain.com
 
+#### Caching your GitHub password in Git:
+* To use caching:
+```bash
+git config --global credential.helper cache
+```
+* To change the default password cache timeout:
+
+```bash
+git config --global credential.helper 'cache --timeout=3600'
+``` 
+https://help.github.com/articles/caching-your-github-password-in-git/
 
 ==================================================
+
+
+
+
+
+
