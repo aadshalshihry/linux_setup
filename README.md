@@ -67,10 +67,12 @@ http://guake.org
 
 ```bash
 sudo apt-get install zsh
+chsh -s /bin/zsh
+git clone https://github.com/aadshalshihry/oh-my-zsh.git ~/.oh-my-zsh
+cp ~/.oh-my-zsh/templates/zshrc.zsh-template ~/.zshrc
 ```
-> You should install Oh-My-Zsh after install guake
+> These command will install and setup to work with Guake
 
-> make file called ~/.zshrc and add the following
 
 ```python
 
