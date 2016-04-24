@@ -77,9 +77,13 @@ cp ~/.oh-my-zsh/templates/zshrc.zsh-template ~/.zshrc
 ```python
 
 ZSH_THEME="agnoster"
-
 ```
 > Chage the Defualt interperter in the Guake Preference to */bin/zsh*
+
+> To make agnoster them work visit the following websites:
+>   * https://powerline.readthedocs.org/en/latest/installation/linux.html#font-installation
+>     * install powerline fonts
+>   
 
 http://ohmyz.sh/
 
