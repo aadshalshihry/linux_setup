@@ -7,8 +7,8 @@ My Ubuntu Setup where it has every thing I like to use in ubuntu
 ```bash
 sudo apt-get update
 sudo apt-get install gnome-session-flashback
-
 ```
+
 ====================================================
 
 ### Install git:
@@ -78,7 +78,9 @@ ln -s .gitignore ~
 ```bash
 sudo apt-get install guake
 ```
-http://guake.org
+
+##### Links:
+1. http://guake.org
 
 ==================================================
 
@@ -105,14 +107,20 @@ ZSH_THEME="agnoster"
 >   * https://powerline.readthedocs.org/en/latest/installation/linux.html#font-installation
 >     * install powerline fonts
 >   
-
-http://ohmyz.sh/
+##### Links
+1. http://ohmyz.sh/
 
 
 ==================================================
 
 
+#### Tmux 
+> tmux is a terminal multiplexer. It allows you to access a tmux terminal using multiple virtual terminals.
 
+```bash
+sudo apt-get install tmux
+```
 
-
+##### Links
+1. https://www.digitalocean.com/community/tutorials/how-to-install-and-use-tmux-on-ubuntu-12-10--2
 
