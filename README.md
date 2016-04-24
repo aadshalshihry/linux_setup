@@ -33,8 +33,8 @@ vim ~/.gitconfig
 ```
 > ### ~/.gitconfig contents
 > > [user]<br />
-> > 	?ts=4 name = Your Name <br /> 
-> > 	?ts=4 email = youremail@domain.com
+> > >	 name = Your Name <br /> 
+> > >	 email = youremail@domain.com
 
 #### Caching your GitHub password in Git:
 * To use caching:
