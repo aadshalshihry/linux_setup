@@ -138,3 +138,25 @@ sudo apt-get install compizconfig-settings-manager compiz-plugins
 
 
 ====================================================================
+
+
+#### Vim Setup
+
+```bash
+cd Download
+git clone https://github.com/aadshalshihry/dotfiles.git
+cd dotfiles
+cp .vimrc ~
+git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
+```
+
+* Install the colorscheme
+```bash
+cd ~/.vim/bundle
+git clone git://github.com/altercation/vim-colors-solarized.git
+mv vim-colors-solarized ~/.vim/bundle/
+```
+
+##### Links: 
+1. https://github.com/VundleVim/Vundle.vim
+2. http://ethanschoonover.com/solarized/vim-colors-solarized
