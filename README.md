@@ -32,7 +32,7 @@ git config --list
 vim ~/.gitconfig
 ```
 > ### ~/.gitconfig contents
-> > [user]
+> > [user]<br />
 > > 	name = Your Name <br /> 
 > > 	email = youremail@domain.com
 
