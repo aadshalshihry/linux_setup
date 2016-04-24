@@ -46,7 +46,28 @@ git config --global credential.helper cache
 ```bash
 git config --global credential.helper 'cache --timeout=3600'
 ``` 
-https://help.github.com/articles/caching-your-github-password-in-git/
+
+
+#### Git gitignore file
+* You need to set up your global ```bash core.excludesfile ``` configuration file to point to this global ignore file.
+
+```bash
+git config --global core.excludesfile '~/.gitignore'
+```
+
+1. Download the file from github to another folder  
+2. make soft link to home 
+
+```bash
+cd folder_name
+git clone https://github.com/aadshalshihry/gitignore.git
+cd gitignore
+ln -s .gitignore ~
+```
+
+##### Links:
+1. https://help.github.com/articles/caching-your-github-password-in-git/
+2. http://stackoverflow.com/questions/7335420/global-git-ignore
 
 ==================================================
 
