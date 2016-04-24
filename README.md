@@ -71,7 +71,7 @@ chsh -s /bin/zsh
 git clone https://github.com/aadshalshihry/oh-my-zsh.git ~/.oh-my-zsh
 cp ~/.oh-my-zsh/templates/zshrc.zsh-template ~/.zshrc
 ```
-> These command will install and setup to work with Guake
+> These command will install and setup it to work with Guake
 
 
 ```python
@@ -79,7 +79,6 @@ cp ~/.oh-my-zsh/templates/zshrc.zsh-template ~/.zshrc
 ZSH_THEME="agnoster"
 
 ```
-
 > Chage the Defualt interperter in the Guake Preference to */bin/zsh*
 
 http://ohmyz.sh/
