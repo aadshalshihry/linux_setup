@@ -160,3 +160,9 @@ mv vim-colors-solarized ~/.vim/bundle/
 ##### Links: 
 1. https://github.com/VundleVim/Vundle.vim
 2. http://ethanschoonover.com/solarized/vim-colors-solarized
+
+
+#### Installing Microsoft Fonts
+```bash
+  sudo apt-get install ttf-mscorefonts-installer
+```
