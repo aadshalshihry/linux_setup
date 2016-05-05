@@ -90,9 +90,9 @@ sudo apt-get install guake
 
 ```bash
 sudo apt-get install zsh
+sh -c "$(wget https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh -O -)"
 chsh -s /bin/zsh
-git clone https://github.com/aadshalshihry/oh-my-zsh.git ~/.oh-my-zsh
-cp ~/.oh-my-zsh/templates/zshrc.zsh-template ~/.zshrc
+
 ```
 > These command will install and setup it to work with Guake
 
