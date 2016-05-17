@@ -14,7 +14,7 @@ sudo apt-get install gnome-session-flashback
 ### Install git:
 
 ```bash
-sudo apt-get intall git
+sudo apt-get install git
 ```
 #### Config git:
 
