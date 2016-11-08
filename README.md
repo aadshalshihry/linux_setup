@@ -171,3 +171,21 @@ mv vim-colors-solarized ~/.vim/bundle/
 1. https://community.linuxmint.com/tutorial/view/29
 
 ==============================================================
+
+##### Install Node and NPM
+* V6
+```
+curl -sL https://deb.nodesource.com/setup_6.x | sudo -E bash -
+sudo apt-get install -y nodejs
+```
+
+* V7
+```
+curl -sL https://deb.nodesource.com/setup_7.x | sudo -E bash -
+sudo apt-get install -y nodejs
+```
+
+** express, gulp, bower, grunt
+```
+npm install -g express gulp bower grunt
+```
