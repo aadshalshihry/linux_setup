@@ -184,6 +184,10 @@ sudo apt-get install -y nodejs
 curl -sL https://deb.nodesource.com/setup_7.x | sudo -E bash -
 sudo apt-get install -y nodejs
 ```
+* Build essential for Node
+```
+sudo apt-get install -y build-essential
+```
 
 * express, gulp, bower, grunt
 ```
