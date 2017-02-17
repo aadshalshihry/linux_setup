@@ -47,6 +47,11 @@ git config --global credential.helper cache
 git config --global credential.helper 'cache --timeout=3600'
 ``` 
 
+* Make vim as the editor used by git
+```bash
+git config --global core.editor "vim"
+```
+
 
 #### Git gitignore file
 * You need to set up your global ```bash core.excludesfile ``` configuration file to point to this global ignore file.
