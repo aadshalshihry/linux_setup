@@ -198,3 +198,12 @@ sudo apt-get install -y build-essential
 ```
 npm install -g express gulp bower grunt
 ```
+
+##### Solving Atom problem, TOO SLOW
+* Tried it once and it work better
+```
+sudo add-apt-repository ppa:oibaf/graphics-drivers
+sudo apt-get update
+LIBGL_DRIVERS_PATH=/usr/lib/dri-alternates
+```
+```
